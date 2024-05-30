@@ -1,0 +1,47 @@
+#main-menu{
+    background-color: blanchedalmond;
+    overflow: auto;
+
+}
+body{
+    margin: 0;
+}
+#main-menu a:hover{
+ color: white;
+ background-color: black;
+ transition:  font-size 0.3s ease;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    }
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    
+}
+
+#main-menu a{
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin-left: -5px;
+}
+#main-menu ul li {
+    display: inline-block;
+
+}
+#main-menu ul{
+    display: inline;
+}
+#main-menu ul.ul-right{
+    float: right;
+}
+#main-menu ul.ul-left{
+    float: left;
+
+}
+
